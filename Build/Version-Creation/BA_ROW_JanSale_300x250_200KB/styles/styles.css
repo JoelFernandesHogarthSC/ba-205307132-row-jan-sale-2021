@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document Common Elements */
+
+body{
+    position: absolute;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    background-color: transparent;
+
+    /* below improves consistancey of font rendering across browsers */
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+
+    /* below stops FireFox rendering copy too heavily */
+    -moz-osx-font-smoothing: grayscale;
+
+    /*font-kerning: none;*/
+}
+
+/* Fix to stop Mobile Safari automatically scaling text - http://bit.ly/1mumu5F */
+@media screen and (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+/* Browser Support: Chrome:5+, Safari:5.1+, Firefox:3.6+, Opera:11.5+, IE:9+, Android:4.4+, iOS:5.1+ */
+@font-face {
+    font-family: 'MyliusModern';
+    src: url('../fonts/MyliusModern.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MyliusModernBold';
+    src: url('../fonts/myliusmodern-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:300px;
+    height:250px;
+    margin:auto;
+    overflow: hidden;
+    display:none;
+    transform: rotate(-0.0000000001deg);
+    -webkit-transform: rotate(-0.0000000001deg);
+    background-color: #fff;
+}
+
+.abs {
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+.full {
+    width:100%;
+    height:100%;
+}
+
+.hidden {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+.frame {
+    background-color: transparent;
+    opacity: 0;
+}
+
+#exitBtn {
+    cursor:pointer;
+    z-index:400;
+    background-color:#FFFFFF;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+#keyline {
+    z-index:399;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border:1px solid #666666;
+    background-color:transparent;
+}
+#frame01,#frame02,#frame03 { /* FIXES TEXT JUMP IN FIREFOX: https://greensock.com/forums/topic/18088-text-shifts-during-parent- ation-chrome/ */
+  -webkit-perspective: 1000px; /* add perspective to fix firefox text bug */
+  perspective: 1000px; /* add perspective to fix firefox text bug */
+}
+
+#frame01a_img_container,#frame01b_img_container{
+    top: 64px;
+    left: 21px;
+    width: 129px;
+    height: 162px;
+
+    overflow: hidden; 
+}
+#frame01b_img_container {
+    left: 150px;
+}
+
+/*********** copy **********/
+.mainCopy {
+    width:100%;
+    text-align:center;
+    font-family:MyliusModernBold;
+    color:#999;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.8px;
+}
+
+.endCopy {
+    text-align:center;
+    font-family:MyliusModernBold;
+    color:#999999;
+    width: 100%;
+    font-size: 10.5px;
+    line-height: 13px;
+    letter-spacing: 1.5px;
+}
+.termsCopy {
+    width:100%;
+    text-align:left;
+    font-family:MyliusModern;
+    font-size:10px;
+    line-height:10px;
+    color:#878787;
+}
+.termsCopy {
+    top: 230px;
+    left: 239px;
+}
+
+sup {
+    vertical-align:top;
+}
+.price_lockup{
+    left: 43px;
+    top: 130px;
+    width: 230px;
+    height: 70px;
+    position: relative;
+    font-family:MyliusModernBold;
+    color: #999;
+}
+.copy_from { 
+    font-size: 6.5px;
+    line-height: 6px;
+    letter-spacing: 1px;
+    top: 9px;
+    left: 52px;
+}
+.copy_price { 
+    font-size: 42px;
+    line-height: 45px;
+    letter-spacing: 3px;
+    top: 3px;
+    left: 74px;
+    font-family: MyliusModernBold;
+}
+.copy_pp { 
+    font-size: 8px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    top: 33px;
+    left: 149px;
+    text-align: left;
+}
+.copy_currency {
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    top: 14px;
+    left: 52px;
+    font-family: MyliusModernBold;
+}
+.copy_package { 
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.7px;
+    top: -12px;
+    left: 19px;
+}
+.copy_ends { 
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 1.6px;
+    top: 0px;
+    left: 0px;
+}
+.copy_divider {
+    top: 11px;
+    left: 97px;
+    height: 36px;
+    background-color: #021b41;
+    width: 1px;
+    opacity: 0;
+}
+/*********** cta **********/
+
+#cta {
+    position: absolute;
+    left: 98px;
+    top: 192px;
+    width: 104px;
+    height: 27px;
+    cursor: pointer;
+}
+
+#cta_bg {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border-radius:2px;
+    background:#FFFFFF;
+    border:1px solid #2E5C99;
+    transition: .5s background;
+}
+
+.ctaCopy {
+    width: 100%;
+    text-align: center;
+    font-family: MyliusModern;
+    font-size: 11px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-indent: 6px;
+    top: 0px;
+    color:#2E5C99;
+    transition: .5s color;
+}
+#container:hover #cta_bg, #container:active #cta_bg {
+    background:#2E5C99;
+    border:1px solid #2E5C99;
+}
+#container:hover .ctaCopy, #container:active .ctaCopy  {
+    color:#FFFFFF;
+}
+#frame01_icon {
+    left: 138px;
+    top: 120px;
+    width: 35px;
+    height: 42px;
+}
+#frame01_copy01, #frame01_copy02{
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    top: 94px;
+}
+#frame01_copy02 {
+    top: 135px;
+    left: 33px;
+    font-size: 15px;
+    letter-spacing: 1.8px;
+    text-align: left;
+}
+#frame01_copy02 div{
+    position: absolute;
+    left: 141px;
+    top: 0;
+}
+#frame02_copy01 {
+    top: 105px;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 1.7px;
+}
+#frame02_copy02{
+    color: #ce210f;
+    top: 119px;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 3px;
+}
+#frame03_copy01 {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    top: 121px;
+}
+#frame03_copy01 #frame03_copy01a,
+#frame03_copy01 #frame03_copy01b{
+    position: absolute;
+    width: auto;
+}
+#frame03_copy01 #frame03_copy01a {
+    text-align: right;
+    right: 169px;
+    letter-spacing: 3px;
+}
+#frame03_copy01 #frame03_copy01b {
+    text-align: left;
+    left: 174px;
+    letter-spacing: 2.3px;
+    font-size: 17px;
+    line-height: 21px;
+}
+#frame03_copy02 {
+    top: 175px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+#frame04_copy02 {
+    top: 88px;
+    left: -1px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+#frame04_copy01 {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    top: 90px;
+}
+#endframe_copy01 {
+    top: 61px;
+}
+/*********** replay btn **********/
+
+#btnReplay {
+    position:absolute;
+    left:5px;
+    top:5px;
+    width:10px;
+    height:13px;
+    display:none;
+    z-index:401;
+    cursor:pointer;
+}
+
+/*********** frame animations **********/
+.on{
+    opacity: 1;
+}
+
+#frame01.animateOff,#frame02.animateOff,#frame03.animateOff{
+    transition: opacity .5s;
+    opacity: 0;
+}
+#frame01.animateOff {
+    transition: opacity .5s .5s;
+}
+#frame01_icon.animateOff_F1{
+    transition: opacity .5s;
+}
+#frame01_icon.animateOff_F2{    
+    transition: opacity .5s;
+}
+#frame01_icon.animateOff_F3{
+    transition: opacity .5s;
+    opacity: 0!important;
+}
