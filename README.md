@@ -5,17 +5,19 @@
 **HOUL_Legacy Job folder:** (smb://ixll-nas.production.hogarthww.net/HOUL_Legacy/PRINT_and_DIGITAL/British Airways/Online/2020/205307132_ba_row_jan_sale_2021)
 ---
 
+GIFS saved here -> smb://ixll-nas.production.hogarthww.net/HOUL_Legacy/PRINT_and_DIGITAL/British Airways/Online/2020/205307132_ba_row_jan_sale_2021/Assets/GIFS
+
 ### Campaign Information
 
 **3 markets:** 
-INDIA : 728x90, 300x250, 300x600, 970x250, 320x50 (GIFS)
+INDIA : 728x90, 300x250, 300x600, 970x250, 320x50 (GIFS) 
 MIDDLE EAST : 728x90, 300x250, 300x600, 970x250 (HTML)
-SOUTH AFRICA : 728x90, 300x250, 300x600, 970x250 (HTML)
+SOUTH AFRICA : 300x250, 300x600, 970x250 (HTML)
 
 
 **AdServer:** DoubleClick Studio  
-**Advertiser:** TBC (https://)
-**Campaign:** [TBC](https://)  
+**Advertiser:** TBC (https://www.google.com/doubleclick/studio/#Advertiser:advertiserId=60091761&ownerId=9837502)
+**Campaign:** [TBC](https://www.google.com/doubleclick/studio/#campaign:advertiserId=60091761&campaignId=60260486&ownerId=9837502)  
 **Dynamic Profile:** [TBC](https://)  
 **Feed:** [TBC](https://)
 
