@@ -8,11 +8,16 @@ var devDynamicContent;
 	devDynamicContent[_feedName] = [{}];
 	devDynamicContent[_feedName][0]._id = 0;
 	devDynamicContent[_feedName][0].Unique_ID = 10001;
+	devDynamicContent[_feedName][0].Reporting_Label = "Cuppas_Lunches_300x250";
+	devDynamicContent[_feedName][0].Creative_Dimension = "300x250";
+	devDynamicContent[_feedName][0].Start_Date = "01/01/2020T00:00:00+00:00";
+	devDynamicContent[_feedName][0].End_Date = "12/31/2021T00:00:00+00:00";
+	devDynamicContent[_feedName][0].CM_PlacementID = "";
+	devDynamicContent[_feedName][0].DV360_line_item_ID = "";
 	devDynamicContent[_feedName][0].Default = false;
 	devDynamicContent[_feedName][0].Active = true;
 	devDynamicContent[_feedName][0].Exit_URL = {};
 	devDynamicContent[_feedName][0].Exit_URL.Url = "http://www.ba.com";
-	devDynamicContent[_feedName][0].Reporting_Label = "Cuppas_Lunches_300x250";
 
 	devDynamicContent[_feedName][0].frame01a_img = {};
 	devDynamicContent[_feedName][0].frame01a_img.Type = "file";
@@ -90,7 +95,7 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].img_replayBtn.Url = "../_assets/btnReplay_x2.png";
 
 	devDynamicContent[_feedName][0].loopingProps = "0,4,true";
-	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy01, #frame04_copy02, #frame03_copy01, .copy_price {color:#1255a3;} #frame01_copy01{letter-spacing:1.8px;top:101px} #frame01_copy02{left:-170px;letter-spacing:2.7px;font-size:17px;top:124px;line-height:1em; text-align:right;} #frame01_copy01,#frame01_copy02{text-shadow:0 0 4px rgba(0,0,0,0.3)} #frame01_copy02 div{left: 341px; text-align:left;} #frame03_copy02{top:174px;font-size:9.5px;letter-spacing:1.7px} #frame04_copy01{top: 73px;} #frame04_copy01,#frame04_copy02{line-height:20px;font-size:10px;letter-spacing:2.3px;top:100px} #frame04_copy02{line-height:20px;font-size:22px;letter-spacing:2px;top:132px;text-align:left; left:21px;} #cta { top: 178px; } #frame04_copy02 div{position:absolute;top:0;right:43px} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:131px;height:168px; top:63px;} #frame01a_img_container{left:19px;} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy{top:232px;left:unset;right:10px;text-align:right}";
+	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy01, #frame04_copy02, #frame03_copy01, .copy_price {color:#1255a3;} #frame01_copy01{letter-spacing:1.8px;top:101px} #frame01_copy02{left:-170px;letter-spacing:2.7px;font-size:17px;top:124px;line-height:1em; text-align:right;} #frame01_copy01,#frame01_copy02{text-shadow:0 0 4px rgba(0,0,0,0.3)} #frame01_copy02 div{left: 341px; text-align:left;} #frame03_copy02{top:174px;font-size:9.5px;letter-spacing:1.7px} #frame04_copy01{top: 73px;} #frame04_copy01,#frame04_copy02{line-height:20px;font-size:10px;letter-spacing:2.3px;top:100px} #frame04_copy02{line-height:20px;font-size:22px;letter-spacing:2px;top:132px;text-align:left; left:21px;} #cta { top: 178px; } #frame04_copy02 div{position:absolute;top:0;right:43px} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:131px;height:168px; top:63px;} #frame01a_img_container{left:19px;} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy{top:232px;left:unset;right:10px;text-align:right} #frame03_copy01b{top:-2px;} .ctaCopy{text-indent:2px;letter-spacing:2.5px}";
 
 	try {
 		Enabler.setDevDynamicContent(devDynamicContent);

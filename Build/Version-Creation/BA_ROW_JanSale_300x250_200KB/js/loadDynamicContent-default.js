@@ -8,11 +8,16 @@ var devDynamicContent;
 	devDynamicContent[_feedName] = [{}];
 	devDynamicContent[_feedName][0]._id = 0;
 	devDynamicContent[_feedName][0].Unique_ID = 10000;
+	devDynamicContent[_feedName][0].Reporting_Label = "Default_300x250";
+	devDynamicContent[_feedName][0].Creative_Dimension = "300x250";
+	devDynamicContent[_feedName][0].Start_Date = "01/01/2020T00:00:00+00:00";
+	devDynamicContent[_feedName][0].End_Date = "12/31/2021T00:00:00+00:00";
+	devDynamicContent[_feedName][0].CM_PlacementID = "";
+	devDynamicContent[_feedName][0].DV360_line_item_ID = "";
 	devDynamicContent[_feedName][0].Default = false;
 	devDynamicContent[_feedName][0].Active = true;
 	devDynamicContent[_feedName][0].Exit_URL = {};
 	devDynamicContent[_feedName][0].Exit_URL.Url = "http://www.ba.com";
-	devDynamicContent[_feedName][0].Reporting_Label = "Default_300x250";
 
 	devDynamicContent[_feedName][0].frame01a_img = {};
 	devDynamicContent[_feedName][0].frame01a_img.Type = "file";
