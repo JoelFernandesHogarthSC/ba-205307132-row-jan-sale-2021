@@ -2,7 +2,7 @@ var devDynamicContent;
 
 (function() {
 	
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];
@@ -54,7 +54,7 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].copy_frame04_package = "";
 	devDynamicContent[_feedName][0].copy_frame04_ends = "";
 
-	devDynamicContent[_feedName][0].endframe_copy01 = "FLY BRITISH AIRWAYS";
+	devDynamicContent[_feedName][0].endframe_copy01 = "";
 	devDynamicContent[_feedName][0].endframe_copy02 = "";
 
 	devDynamicContent[_feedName][0].cta_copy = "BOOK NOW";

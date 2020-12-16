@@ -2,7 +2,7 @@ var devDynamicContent;
 
 (function () {
 
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];

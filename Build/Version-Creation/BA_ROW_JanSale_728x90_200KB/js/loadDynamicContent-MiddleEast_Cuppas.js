@@ -2,13 +2,12 @@ var devDynamicContent;
 
 (function () {
 
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];
-	devDynamicContent[_feedName][0]._id = 0;
 	devDynamicContent[_feedName][0].Unique_ID = 30001;
-	devDynamicContent[_feedName][0].Reporting_Label = "Cuppas_Lunches_728x90";
+	devDynamicContent[_feedName][0].Reporting_Label = "Middle_East_Cuppas_Lunches_728x90";
 	devDynamicContent[_feedName][0].Creative_Dimension = "728x90";
 	devDynamicContent[_feedName][0].Start_Date = "01/01/2020T00:00:00+00:00";
 	devDynamicContent[_feedName][0].End_Date = "12/31/2021T00:00:00+00:00";

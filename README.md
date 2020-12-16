@@ -16,9 +16,9 @@ SOUTH AFRICA : 300x250, 300x600, 970x250 (HTML)
 
 
 **AdServer:** DoubleClick Studio  
-**Advertiser:** TBC (https://www.google.com/doubleclick/studio/#Advertiser:advertiserId=60091761&ownerId=9837502)
-**Campaign:** [TBC](https://www.google.com/doubleclick/studio/#campaign:advertiserId=60091761&campaignId=60260486&ownerId=9837502)  
-**Dynamic Profile:** [TBC](https://)  
+**Advertiser:** BritishAirways_Global_Wavemaker  (https://www.google.com/doubleclick/studio/#Advertiser:advertiserId=60091761&ownerId=9837502)
+**Campaign:** [205307132_BA_ROW_Jan_Sale_2021](https://www.google.com/doubleclick/studio/#campaign:advertiserId=60091761&campaignId=60260486&ownerId=9837502)  
+**Dynamic Profile:** [205307132_BA_ROW_Jan_Sale_2021](https://www.google.com/doubleclick/studio/#ContentManagement/ProfileGuides:id=10028540&pr=10587883&revision=DRAFT)  
 **Feed:** [TBC](https://)
 
 

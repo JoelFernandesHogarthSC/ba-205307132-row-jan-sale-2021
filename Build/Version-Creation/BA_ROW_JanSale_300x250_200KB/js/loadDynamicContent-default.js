@@ -2,11 +2,10 @@ var devDynamicContent;
 
 (function() {
 	
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];
-	devDynamicContent[_feedName][0]._id = 0;
 	devDynamicContent[_feedName][0].Unique_ID = 10000;
 	devDynamicContent[_feedName][0].Reporting_Label = "Default_300x250";
 	devDynamicContent[_feedName][0].Creative_Dimension = "300x250";

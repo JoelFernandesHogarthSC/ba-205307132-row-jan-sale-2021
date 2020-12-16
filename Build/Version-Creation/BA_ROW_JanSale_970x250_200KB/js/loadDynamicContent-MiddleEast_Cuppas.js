@@ -2,13 +2,12 @@ var devDynamicContent;
 
 (function () {
 
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];
-	devDynamicContent[_feedName][0]._id = 0;
 	devDynamicContent[_feedName][0].Unique_ID = 40001;
-	devDynamicContent[_feedName][0].Reporting_Label = "Cuppas_Lunches_970x250";
+	devDynamicContent[_feedName][0].Reporting_Label = "Middle_East_Cuppas_Lunches_970x250";
 	devDynamicContent[_feedName][0].Creative_Dimension = "970x250";
 	devDynamicContent[_feedName][0].Start_Date = "01/01/2020T00:00:00+00:00";
 	devDynamicContent[_feedName][0].End_Date = "12/31/2021T00:00:00+00:00";
@@ -32,7 +31,7 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].frame01_icon.Url = "../_assets/ampersand_970x250_x2.gif";
 	devDynamicContent[_feedName][0].frame01_frame = {};
 	devDynamicContent[_feedName][0].frame01_frame.Type = "file";
-	devDynamicContent[_feedName][0].frame01_frame.Url = "../_assets/img_frame_970x250.png";
+	devDynamicContent[_feedName][0].frame01_frame.Url = "../_assets/img_frame_Jansale2021_970x250.png";
 
 	devDynamicContent[_feedName][0].frame02_copy01 = "";
 	devDynamicContent[_feedName][0].frame02_copy02 = "";

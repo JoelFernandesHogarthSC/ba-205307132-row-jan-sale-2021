@@ -2,13 +2,13 @@ var devDynamicContent;
 
 (function () {
 
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];
-	devDynamicContent[_feedName][0].Unique_ID = 10002;
-	devDynamicContent[_feedName][0].Reporting_Label = "RoofTops_CliffTops_300x250";
-	devDynamicContent[_feedName][0].Creative_Dimension = "300x250";
+	devDynamicContent[_feedName][0].Unique_ID = 40003;
+	devDynamicContent[_feedName][0].Reporting_Label = "South_Africa_RoofTops_CliffTops_970x250";
+	devDynamicContent[_feedName][0].Creative_Dimension = "970x250";
 	devDynamicContent[_feedName][0].Start_Date = "01/01/2020T00:00:00+00:00";
 	devDynamicContent[_feedName][0].End_Date = "12/31/2021T00:00:00+00:00";
 	devDynamicContent[_feedName][0].CM_PlacementID = "";
@@ -20,18 +20,18 @@ var devDynamicContent;
 
 	devDynamicContent[_feedName][0].frame01a_img = {};
 	devDynamicContent[_feedName][0].frame01a_img.Type = "file";
-	devDynamicContent[_feedName][0].frame01a_img.Url = "../_assets/img_rooftops_131x168_x2.jpg";
+	devDynamicContent[_feedName][0].frame01a_img.Url = "../_assets/img_rooftops_320x190_x1.jpg";
 	devDynamicContent[_feedName][0].frame01b_img = {};
 	devDynamicContent[_feedName][0].frame01b_img.Type = "file";
-	devDynamicContent[_feedName][0].frame01b_img.Url = "../_assets/img_clifftops_131x168_x2.jpg";
+	devDynamicContent[_feedName][0].frame01b_img.Url = "../_assets/img_clifftops_322x190_x1.jpg";
 	devDynamicContent[_feedName][0].frame01_copy01 = "TAKE OFF TO";
 	devDynamicContent[_feedName][0].frame01_copy02 = "ROOFTOPS<div>CLIFFTOPS</div>";
 	devDynamicContent[_feedName][0].frame01_icon = {};
 	devDynamicContent[_feedName][0].frame01_icon.Type = "file";
-	devDynamicContent[_feedName][0].frame01_icon.Url = "../_assets/ampersand_300x250_x2.gif";
+	devDynamicContent[_feedName][0].frame01_icon.Url = "../_assets/ampersand_970x250_x2.gif";
 	devDynamicContent[_feedName][0].frame01_frame = {};
 	devDynamicContent[_feedName][0].frame01_frame.Type = "file";
-	devDynamicContent[_feedName][0].frame01_frame.Url = "../_assets/img_frame_Jansale2021_300x250.png";
+	devDynamicContent[_feedName][0].frame01_frame.Url = "../_assets/img_frame_Jansale2021_970x250.png";
 
 	devDynamicContent[_feedName][0].frame02_copy01 = "";
 	devDynamicContent[_feedName][0].frame02_copy02 = "";
@@ -39,14 +39,14 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].frame02_img.Type = "file";
 	devDynamicContent[_feedName][0].frame02_img.Url = "../_assets/noImage.png";
 
-	devDynamicContent[_feedName][0].frame03_copy01 = "<div id='frame03_copy01a' style='right: 168px;'>BOOK<br>NOW</div><div id='frame03_copy01b' style='left: 175px;' >CHANGE<br>LATER</div>";
-	devDynamicContent[_feedName][0].frame03_copy02 = "WITH OUR FLEXIBLE<br>BOOKING OPTIONS";
+	devDynamicContent[_feedName][0].frame03_copy01 = "SALE NOW ON TO";
+	devDynamicContent[_feedName][0].frame03_copy02 = "<div id='frame04_copy02a'><div id='frame04_copy02a1'>LONDON</div><div id='frame04_copy02a2'>BEYOND</div></div><div id='frame04_copy02b'>SALE ENDS 31 JANUARY 2021</div>";
 	devDynamicContent[_feedName][0].frame03_img = {};
 	devDynamicContent[_feedName][0].frame03_img.Type = "file";
 	devDynamicContent[_feedName][0].frame03_img.Url = "../_assets/noImage.png";
 
-	devDynamicContent[_feedName][0].frame04_copy01 = "GREAT FARES TO";
-	devDynamicContent[_feedName][0].frame04_copy02 = "LONDON<div>BEYOND</div>";
+	devDynamicContent[_feedName][0].frame04_copy01 = "BOOK NOW<div>CHANGE LATER</div>";
+	devDynamicContent[_feedName][0].frame04_copy02 = "<sup>*</sup>WITH OUR FLEXIBLE BOOKING OPTIONS";
 	devDynamicContent[_feedName][0].copy_frame04_from = "";
 	devDynamicContent[_feedName][0].copy_frame04_currency = "";
 	devDynamicContent[_feedName][0].copy_frame04_price = "";
@@ -79,22 +79,22 @@ var devDynamicContent;
 
 	devDynamicContent[_feedName][0].img_logo_ba_01 = {};
 	devDynamicContent[_feedName][0].img_logo_ba_01.Type = "file";
-	devDynamicContent[_feedName][0].img_logo_ba_01.Url = "../_assets/logo_BA_Jansale2021_300x250_x2.png";
-	devDynamicContent[_feedName][0].img_logo_ba_02 = {};
+	devDynamicContent[_feedName][0].img_logo_ba_01.Url = "../_assets/logo_BA_Jansale2021_970x250_x2.png";
+	devDynamicContent[_feedName][0].img_logo_ba_02 = {}; 
 	devDynamicContent[_feedName][0].img_logo_ba_02.Type = "file";
 	devDynamicContent[_feedName][0].img_logo_ba_02.Url = "../_assets/noImage.png";
 	devDynamicContent[_feedName][0].img_logo_partners = {};
 	devDynamicContent[_feedName][0].img_logo_partners.Type = "file";
-	devDynamicContent[_feedName][0].img_logo_partners.Url = "../_assets/logo_BA_partners_noATOL_300x250_x2.png";
+	devDynamicContent[_feedName][0].img_logo_partners.Url = "../_assets/logo_BA_partners_noATOL_970x250_x2.png";
 	devDynamicContent[_feedName][0].img_logo_extra = {};
 	devDynamicContent[_feedName][0].img_logo_extra.Type = "file"
-	devDynamicContent[_feedName][0].img_logo_extra.Url = "../_assets//noImage.png";
+	devDynamicContent[_feedName][0].img_logo_extra.Url = "../_assets/noImage.png";
 	devDynamicContent[_feedName][0].img_replayBtn = {};
 	devDynamicContent[_feedName][0].img_replayBtn.Type = "file";
 	devDynamicContent[_feedName][0].img_replayBtn.Url = "../_assets/btnReplay_x2.png";
 
 	devDynamicContent[_feedName][0].loopingProps = "0,4,true";
-	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy01, #frame04_copy02, #frame03_copy01, .copy_price {color:#1255a3;} #frame01_copy01{letter-spacing:1.8px;top:101px} #frame01_copy02{left:30px;letter-spacing:2.7px;font-size:15px;top:136px} #frame01_copy01,#frame01_copy02{text-shadow:0 0 4px rgba(0,0,0,0.3)} #frame01_copy02 div{left: 138px;} #frame03_copy02{top:174px;font-size:9.5px;letter-spacing:1.7px} #frame04_copy01{top: 73px;} #frame04_copy01,#frame04_copy02{line-height:20px;font-size:10px;letter-spacing:2.3px;top:100px} #frame04_copy02{line-height:20px;font-size:22px;letter-spacing:2px;top:132px;text-align:left; left:21px;} #cta { top: 178px; } #frame04_copy02 div{position:absolute;top:0;right:43px} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:131px;height:168px; top:63px;} #frame01a_img_container{left:19px;} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy{top:232px;left:unset;right:10px;text-align:right}";
+	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy01, #frame03_copy02, #frame03_copy01 {color:#ce210f;} #frame01_copy01 { top: 50px; } #frame01_copy02 { top: 100px; left: -325px; font-size: 30px; letter-spacing:4.8px; line-height:1.05em;width:645px; text-align:right;} #frame01_copy02 div { left: 720px; text-align:left;} #frame01_copy01, #frame01_copy02 { text-shadow: 0 0 6px rgba(0,0,0,0.7); } #frame03_copy01{font-size:30px;letter-spacing:.15em;top:43px;left:-138px;line-height:36px} #frame03_copy01b { position: relative; left: 41px; } #frame03_copy02{width:688px;left:-142px;top:114px;font-size:40px;letter-spacing:.16em} #frame04_copy01, #frame04_copy02 { top: 75px; letter-spacing: 3.5px; font-size: 28px; line-height: 33px; left: 22px; width: 290px; } #frame04_copy02{left:134px;font-size:15px;width:504px;top:183px;letter-spacing:.127em} #frame04_copy02b{font-size:18px;top:73px;position:absolute;left:308px;letter-spacing:.24em} #frame04_copy02a1{position:absolute;left:233px}#frame04_copy02a2{position:absolute; left:535px} #cta{top:171px;width:149px;left:735px;height:34px} #cta_copy{line-height:34px;text-indent:4px} #cta_bg{border-color:#ce210f;} .ctaCopy { color:#ce210f;} .termsCopy { right: 12px; bottom: 9px; left: auto; top: auto; text-align: right; } #frame01a_img_container, #frame01b_img_container, #frame01a_img,#frame01b_img { width:320px; height:190px;} #frame01a_img_container {left:31px} #frame01b_img_container{left: 351px;} #frame01_icon{left:329px;top:88px} #frame01_icon.animateOff_F3{opacity:1!important} #frame01.animateOff{transition:opacity .5s 0s} #frame04_copy01{left:100px;width:644px;letter-spacing:.19em;top:107px;font-size:30px;text-align:left} #frame04_copy01 div{position:absolute;top:0;left:293px} #frame03_copy01 div{left:14px!important;}";
 
 	try {
 		Enabler.setDevDynamicContent(devDynamicContent);

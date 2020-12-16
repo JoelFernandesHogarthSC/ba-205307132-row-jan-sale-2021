@@ -2,13 +2,12 @@ var devDynamicContent;
 
 (function () {
 
-	var _feedName = "TBC";
+	var _feedName = "205307132_BA_ROW_Jan_Sale_2021_All_Sizes";
 	devDynamicContent = {};
 
 	devDynamicContent[_feedName] = [{}];
-	devDynamicContent[_feedName][0]._id = 0;
-	devDynamicContent[_feedName][0].Unique_ID = 10002;
-	devDynamicContent[_feedName][0].Reporting_Label = "RoofTops_CliffTops_300x250";
+	devDynamicContent[_feedName][0].Unique_ID = 10003;
+	devDynamicContent[_feedName][0].Reporting_Label = "South_Africa_RoofTops_CliffTops_300x250";
 	devDynamicContent[_feedName][0].Creative_Dimension = "300x250";
 	devDynamicContent[_feedName][0].Start_Date = "01/01/2020T00:00:00+00:00";
 	devDynamicContent[_feedName][0].End_Date = "12/31/2021T00:00:00+00:00";
@@ -40,14 +39,14 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].frame02_img.Type = "file";
 	devDynamicContent[_feedName][0].frame02_img.Url = "../_assets/noImage.png";
 
-	devDynamicContent[_feedName][0].frame03_copy01 = "<div id='frame03_copy01a' style='right: 168px;'>BOOK<br>NOW</div><div id='frame03_copy01b' style='left: 175px;' >CHANGE<br>LATER</div>";
-	devDynamicContent[_feedName][0].frame03_copy02 = "WITH OUR FLEXIBLE<br>BOOKING OPTIONS";
+	devDynamicContent[_feedName][0].frame03_copy01 = "SALE NOW ON TO";
+	devDynamicContent[_feedName][0].frame03_copy02 = "LONDON<div>BEYOND</div><div id='frame04_copy02a'>SALE ENDS 31 JANUARY 2021</div>";
 	devDynamicContent[_feedName][0].frame03_img = {};
 	devDynamicContent[_feedName][0].frame03_img.Type = "file";
 	devDynamicContent[_feedName][0].frame03_img.Url = "../_assets/noImage.png";
 
-	devDynamicContent[_feedName][0].frame04_copy01 = "<div id='frame03_copy01a' style='right: 168px;'>BOOK<br>NOW</div><div id='frame03_copy01b' style='left: 175px;' >CHANGE<br>LATER</div>";
-	devDynamicContent[_feedName][0].frame04_copy02 = "LONDON<div>BEYOND</div>";
+	devDynamicContent[_feedName][0].frame04_copy01 = "<sup>*</sup>WITH OUR FLEXIBLE<br>&nbsp;BOOKING OPTIONS";
+	devDynamicContent[_feedName][0].frame04_copy02 = "BOOK<br>NOW<div>CHANGE<br>LATER</div>";
 	devDynamicContent[_feedName][0].copy_frame04_from = "";
 	devDynamicContent[_feedName][0].copy_frame04_currency = "";
 	devDynamicContent[_feedName][0].copy_frame04_price = "";
@@ -81,7 +80,7 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].img_logo_ba_01 = {};
 	devDynamicContent[_feedName][0].img_logo_ba_01.Type = "file";
 	devDynamicContent[_feedName][0].img_logo_ba_01.Url = "../_assets/logo_BA_Jansale2021_300x250_x2.png";
-	devDynamicContent[_feedName][0].img_logo_ba_02 = {};
+	devDynamicContent[_feedName][0].img_logo_ba_02 = {}; 
 	devDynamicContent[_feedName][0].img_logo_ba_02.Type = "file";
 	devDynamicContent[_feedName][0].img_logo_ba_02.Url = "../_assets/noImage.png";
 	devDynamicContent[_feedName][0].img_logo_partners = {};
@@ -95,8 +94,8 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].img_replayBtn.Url = "../_assets/btnReplay_x2.png";
 
 	devDynamicContent[_feedName][0].loopingProps = "0,4,true";
-	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy01, #frame04_copy02, #frame03_copy01, .copy_price {color:#1255a3;} #frame01_copy01{letter-spacing:1.8px;top:101px} #frame01_copy02{left:30px;letter-spacing:2.7px;font-size:15px;top:136px} #frame01_copy01,#frame01_copy02{text-shadow:0 0 4px rgba(0,0,0,0.3)} #frame01_copy02 div{left: 138px;} #frame03_copy02{top:174px;font-size:9.5px;letter-spacing:1.7px} #frame04_copy01{top: 73px;} #frame04_copy01,#frame04_copy02{left:1px;line-height:20px;font-size:10px;letter-spacing:2.3px;top:100px} #frame04_copy02{line-height:20px;font-size:22px;letter-spacing:2px;top:132px;text-align:left; left:21px;} #cta { top: 178px; } #frame04_copy02 div{position:absolute;top:0;right:43px} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:131px;height:168px; top:63px;} #frame01a_img_container{left:19px;} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy{top:232px;left:unset;right:10px;text-align:right} #frame03_copy01b{top:-2px;} .ctaCopy{text-indent:2px; letter-spacing:2.5px}";
-
+	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy02, #frame03_copy01, #frame03_copy02, .copy_price {color:#ce210f;} #frame01_copy01{letter-spacing:1.8px;top:101px} #frame01_copy02{left:30px;letter-spacing:2.7px;font-size:15px;top:136px} #frame01_copy01,#frame01_copy02{text-shadow:0 0 4px rgba(0,0,0,0.3)} #frame01_copy02 div{left: 138px;} #frame03_copy02{top:174px;font-size:9.5px;letter-spacing:1.7px} #frame03_copy02 div{right:-145px!important;position:absolute!important} #frame04_copy01{top: 73px;} #frame04_copy01,#frame04_copy02{left:0px;line-height:15px;font-size:11px;letter-spacing:1.5px;top:85px} #frame03_copy02, #frame04_copy02{line-height:20px;font-size:17px;letter-spacing:3px;top:122px;text-align:left;left:-170px;text-align:right} #frame04_copy02a{top:54px!important;font-size:12px;letter-spacing:.08em;left:223px} {} #cta { top: 184px; left:99px; } #cta_bg{border-color:#ce210f;} .ctaCopy { color:#ce210f;} #frame03_copy02{top:133px;font-size:21px;left:-169px;letter-spacing:.11em} #frame03_copy02 div, #frame04_copy02 div{position:absolute;top:0;right:-136px;text-align:left} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:131px;height:168px; top:63px;} #frame01a_img_container{left:19px;} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy{top:232px;left:unset;right:10px;text-align:right}  #frame03_copy01 { top:95px; font-size:17px; letter-spacing:0.11em; } #frame03_copy01b{top:-2px;} .ctaCopy{text-indent:2px; letter-spacing:2.5px}";
+ 
 	try {
 		Enabler.setDevDynamicContent(devDynamicContent);
 	} catch (error) {
