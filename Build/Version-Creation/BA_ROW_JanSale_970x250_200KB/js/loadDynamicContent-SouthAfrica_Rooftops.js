@@ -61,8 +61,8 @@ var devDynamicContent;
 
 	devDynamicContent[_feedName][0].terms_frame01 = "";
 	devDynamicContent[_feedName][0].terms_frame02 = "";
-	devDynamicContent[_feedName][0].terms_frame03 = "Terms apply.";
-	devDynamicContent[_feedName][0].terms_frame04 = "Terms apply.";
+	devDynamicContent[_feedName][0].terms_frame03 = "*Travel by 31 August 2021. T&Cs apply.";
+	devDynamicContent[_feedName][0].terms_frame04 = "*Travel by 31 August 2021. T&Cs apply..";
 
 	devDynamicContent[_feedName][0].frameTimes = "4,0,4";
 

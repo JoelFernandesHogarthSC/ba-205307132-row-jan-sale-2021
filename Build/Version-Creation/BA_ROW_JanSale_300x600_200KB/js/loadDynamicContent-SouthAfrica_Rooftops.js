@@ -40,13 +40,13 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].frame02_img.Url = "../_assets/noImage.png";
 
 	devDynamicContent[_feedName][0].frame03_copy01 = "<div id='frame03_copy01a' style='right: 168px;'>SALE NOW ON<br>TO LONDON</div><div id='frame03_copy01b' style='left: 175px;' >BEYOND</div>";
-	devDynamicContent[_feedName][0].frame03_copy02 = "SALE END 31ST JANUARY 2021";
+	devDynamicContent[_feedName][0].frame03_copy02 = "SALE ENDS 31 JANUARY 2021";
 	devDynamicContent[_feedName][0].frame03_img = {};
 	devDynamicContent[_feedName][0].frame03_img.Type = "file";
 	devDynamicContent[_feedName][0].frame03_img.Url = "../_assets/noImage.png";
 
-	devDynamicContent[_feedName][0].frame04_copy01 = "GREAT FARES<br>TO LONDON";
-	devDynamicContent[_feedName][0].frame04_copy02 = "<div>BEYOND</div>";
+	devDynamicContent[_feedName][0].frame04_copy01 = "<sup>*</sup>WITH OUR FLEXIBLE<br>&nbsp;BOOKING OPTIONS";
+	devDynamicContent[_feedName][0].frame04_copy02 = "BOOK<br>NOW<div>CHANGE<br>LATER</div>";
 	devDynamicContent[_feedName][0].copy_frame04_from = "";
 	devDynamicContent[_feedName][0].copy_frame04_currency = "";
 	devDynamicContent[_feedName][0].copy_frame04_price = "";
@@ -61,8 +61,8 @@ var devDynamicContent;
 
 	devDynamicContent[_feedName][0].terms_frame01 = "";
 	devDynamicContent[_feedName][0].terms_frame02 = "";
-	devDynamicContent[_feedName][0].terms_frame03 = "Terms apply.";
-	devDynamicContent[_feedName][0].terms_frame04 = "Terms apply.";
+	devDynamicContent[_feedName][0].terms_frame03 = "*Travel by 31 August 2021. T&Cs apply.";
+	devDynamicContent[_feedName][0].terms_frame04 = "*Travel by 31 August 2021. T&Cs apply.";
 
 	devDynamicContent[_feedName][0].frameTimes = "4,0,4";
 
@@ -94,7 +94,7 @@ var devDynamicContent;
 	devDynamicContent[_feedName][0].img_replayBtn.Url = "../_assets/btnReplay_x2.png";
 
 	devDynamicContent[_feedName][0].loopingProps = "0,4,true";
-	devDynamicContent[_feedName][0].css_overrides = "#frame04_copy01, #frame04_copy02, #frame03_copy01 {color:#1255a3;} #frame01_copy01 { top: 200px; left: 0; letter-spacing: 2.7px; font-size: 15px; line-height: 17px; } #frame01_copy02{top:227px;letter-spacing:5px} #frame01_copy02 div {margin-top:119px;} #frame01_copy01,#frame01_copy02{text-shadow:0 0 8px rgba(0,0,0,0.3)} #frame03_copy01{top:80px;font-size:29px;letter-spacing:.13em;line-height:1.1em;left:0} #frame03_copy01 div{margin:120px 0 0 2px} #frame04_copy01,#frame04_copy02{top:198px;left:4px;font-size:28px;line-height:32px;letter-spacing:4.6px} #frame04_copy02 { top: 383px; } #cta { top: 482px; } .copy_divider{opacity:0} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:262px;height:243px;top:326px;} #frame01a_img_container{top:80px;height:246px} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy { left:unset; right: 0px!important; margin-right:10px; text-align:right;  }  #frame03_copy02{top:497px;font-size:13px;left:1px;letter-spacing:.17em} " ;
+	devDynamicContent[_feedName][0].css_overrides = "#frame03_copy02, #frame04_copy02, #frame03_copy01 {color:#ce210f;} #frame01_copy01 { top: 200px; left: 0; letter-spacing: 2.7px; font-size: 15px; line-height: 17px; } #frame01_copy02{top:227px;letter-spacing:5px} #frame01_copy02 div {margin-top:119px;} #frame01_copy01,#frame01_copy02{text-shadow:0 0 8px rgba(0,0,0,0.3)} #frame03_copy01{top:80px;font-size:29px;letter-spacing:.13em;line-height:1.1em;left:1px;} #frame03_copy01 div{margin:120px 0 0 2px}  #frame03_copy01b{left:2px!important;position:relative;top:2px} #frame04_copy01{top:125px;left:-1px;font-size:13px;line-height:1.3em;letter-spacing:.18em} #frame04_copy02{left:3px;font-size:34px;line-height:33px;letter-spacing:4.6px;top:195px} #frame04_copy02 div{position:relative;top: 124px;} #cta { top: 491px; } .copy_divider{opacity:0} #frame01_icon.animateOff_F3{opacity:1!important} #frame01a_img_container,#frame01b_img_container{width:262px;height:243px;top:326px;} #frame01a_img_container{top:80px;height:246px} #frame01.animateOff{transition:opacity .5s 0s} .termsCopy { left:unset; right: 0px!important; margin-right:10px; text-align:right;  }  #frame03_copy02{top:497px;font-size:13px;left:1px;letter-spacing:.17em} #frame01_icon{top:282px;} " ;
 
 	try {
 		Enabler.setDevDynamicContent(devDynamicContent);
