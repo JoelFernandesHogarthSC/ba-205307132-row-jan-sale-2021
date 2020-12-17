@@ -12,7 +12,7 @@ GIFS saved here -> smb://ixll-nas.production.hogarthww.net/HOUL_Legacy/PRINT_and
 **3 markets:** 
 INDIA : 728x90, 300x250, 300x600, 970x250, 320x50 (GIFS) 
 MIDDLE EAST : 728x90, 300x250, 300x600, 970x250 (HTML)
-SOUTH AFRICA : 300x250, 300x600, 970x250 (HTML)
+SOUTH AFRICA : 728x90, 300x250, 300x600, 970x250 (HTML)
 
 
 **AdServer:** DoubleClick Studio  
