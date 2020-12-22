@@ -19,9 +19,9 @@ var dynContent;
 function getDevDynamicContent() {
     // console.log("[ loadDynamicContent-csv] getDevDynamicContent")
     
-	var parentWindow = window.parent;  console.log("[ loadDynamicContent-csv ] parentWindow >>> ",parentWindow)
-	var iframe = window.frameElement;  console.log("[ loadDynamicContent-csv ] iframe >>> ",iframe)
-	var iframeAdID = iframe.getAttribute('adID');  console.log("[ loadDynamicContent-csv] iframeAdID >>>",iframeAdID)
+	var parentWindow = window.parent;  //console.log("[ loadDynamicContent-csv ] parentWindow >>> ",parentWindow)
+	var iframe = window.frameElement;  //console.log("[ loadDynamicContent-csv ] iframe >>> ",iframe)
+	var iframeAdID = iframe.getAttribute('adID');  //console.log("[ loadDynamicContent-csv] iframeAdID >>>",iframeAdID)
 
 	var assetsPath = parentWindow.config.general.assetsPath;  // csv_config.js
 	
@@ -38,15 +38,15 @@ function getDevDynamicContent() {
 			{
 				devDynamicContent[_feedName][0][item] = {}
 				devDynamicContent[_feedName][0][item].Url = assetsPath + dynContent.data[item];
-				console.log(dynContent.data[item])
+				// console.log(dynContent.data[item])
 			}
 			else
 			{
 				devDynamicContent[_feedName][0][item] = dynContent.data[item];
 			}
 
-			console.log("+++",item)
-				console.log("+++",devDynamicContent[_feedName][0][item])
+			// console.log("+++",item)
+				// console.log("+++",devDynamicContent[_feedName][0][item])
 
 		 });
 }
